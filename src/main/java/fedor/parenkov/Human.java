@@ -14,9 +14,6 @@ public class Human {
     String[] womanHobbies = {"swimming", "singing", "painting", "learn Spanish"};
     boolean badHabits = false;
 
-//  Шаблон с дефолтными значениями
-    public Human() {}
-
 //  Конструктор
     public Human(String name, boolean gender, int age, double height,
                  String state, boolean married, String job, boolean badHabits) {
